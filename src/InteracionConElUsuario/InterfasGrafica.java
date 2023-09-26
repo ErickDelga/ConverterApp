@@ -16,7 +16,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
-public class IntergasGrafica extends JFrame {
+public class InterfasGrafica extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -29,7 +29,7 @@ public class IntergasGrafica extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					IntergasGrafica frame = new IntergasGrafica();
+					InterfasGrafica frame = new InterfasGrafica();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -41,7 +41,7 @@ public class IntergasGrafica extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public IntergasGrafica() {
+	public InterfasGrafica() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 670, 565);
 		contentPane = new JPanel();
