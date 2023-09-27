@@ -101,7 +101,7 @@ public class InterfasGrafica extends JFrame implements ActionListener{
 		lblCantidad.setBounds(190, 137, 146, 17);
 		contentPane.add(lblCantidad);
 		
-		lblResultado = new JLabel("AutoBorrable");
+		lblResultado = new JLabel("Aqui Apareceran Tus Resultados");
 		lblResultado.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 25));
 		lblResultado.setHorizontalAlignment(SwingConstants.CENTER);
 		lblResultado.setBounds(10, 302, 635, 108);

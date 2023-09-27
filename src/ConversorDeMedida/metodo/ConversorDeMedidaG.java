@@ -25,10 +25,11 @@ public class ConversorDeMedidaG extends JFrame {
 	MetodosDeMedida misMetodos = new MetodosDeMedida();
 
 	public ConversorDeMedidaG() {
-
+		
 		setSize(500, 100);
 		setTitle("Conversor De Unidades De Medida");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setResizable(false);;
 
 		JPanel panel = new JPanel();
 		mostrarMenu();
@@ -164,10 +165,10 @@ public class ConversorDeMedidaG extends JFrame {
 		});
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		ConversorDeMedidaG miVentana = new ConversorDeMedidaG();
 		miVentana.setVisible(true);
 		miVentana.setLocationRelativeTo(null);
-	}
+	}*/
 
 }
